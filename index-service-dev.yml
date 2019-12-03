@@ -1,0 +1,11 @@
+feign:
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
