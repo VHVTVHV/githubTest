@@ -10,5 +10,5 @@ management:
       exposure:
         include: "*"
 product:
-  server:123456
+  server: 123456
 
