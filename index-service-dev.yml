@@ -11,4 +11,6 @@ management:
         include: "*"
 product:
   server: 123
-
+product-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
