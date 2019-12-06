@@ -1,4 +1,6 @@
 feign:
+  hystrix:
+    enabled: true
   compression:
     request:
       enabled: true
